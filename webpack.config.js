@@ -22,6 +22,9 @@ Encore
      */
     .addEntry('app', './assets/app.js')
 
+    // Add Stimulus bundle
+    .addStimulus('@symfony/stimulus-bundle/dist/stimulus.js')
+    
     // When enabled, Webpack "splits" your files into smaller pieces for greater optimization.
     .splitEntryChunks()
 
